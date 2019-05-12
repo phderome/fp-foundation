@@ -1,6 +1,6 @@
 package exercises.functors
 
-import exercises.typeclass.Monoid
+import exercises.typeclass.TypeclassExercises._
 import exercises.functors.Applicative.syntax._
 import exercises.functors.Functor.syntax._
 import exercises.functors.Monad.syntax._
@@ -8,6 +8,7 @@ import exercises.functors.Traverse.syntax._
 import exercises.functors._
 import exercises.typeclass.Foldable.syntax._
 import exercises.typeclass.Monoid.syntax._
+import exercises.typeclass.{Endo, Monoid}
 import toimpl.functors.FunctorsToImpl
 
 object FunctorsExercises extends FunctorsToImpl {
